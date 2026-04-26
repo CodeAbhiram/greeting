@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Grand Birthday Surprise!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <audio id="backgroundMusic" loop>
+        <source src="birthday_song.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <div class="step active" id="step1">
+        <div class="welcome-card">
+            <h1 class="welcome-title">You've got a surprise!</h1>
+            <p class="welcome-message">Click below to start your birthday journey...</p>
+            <button id="startButton" class="action-button">Start the Celebration!</button>
+        </div>
+    </div>
+
+    <div class="step" id="step2">
+        <div class="envelope-container" id="envelopeContainer">
+            <div class="envelope">
+                <div class="envelope-back"></div>
+                <div class="envelope-front"></div>
+                <div class="envelope-flap"></div>
+                <div class="envelope-seal"></div>
+            </div>
+            <p class="click-instruction">Click the envelope!</p>
+        </div>
+    </div>
+
+    <div class="step" id="step3">
+        <div class="letter-container" id="letterContainer">
+            <div class="letter">
+                <p>Dearest Lalliiiii,</p>
+                <p>Happiesstttt Birthdayyyy to the Kindest and most innocent(idiotic) person i have ever met😂.i genuinely hope you get whatever you wished for in this birthday </p>
+                <p>You are the one person i can never losee,even during hardtimes i keep finding myself coming back to youu</p>
+                <p>I LOVEEEE YOUUUU SOOOO MUCHHHH🫂🤗</p>
+                <p>I couldn’t get you a cake, so I’m making up for it the way I know how.😅</p>
+                <p>Click the button to reveal your special birthday surprise!</p>
+                <button id="unfoldButton" class="action-button">Unfold My Surprise!</button>
+            </div>
+        </div>
+    </div>
+
+   
+    <script src="script.js"></script>
+</body>
+</html>
