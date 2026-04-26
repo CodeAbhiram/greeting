@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- Step 3: Letter Unfold Interactions ---
     unfoldButton.addEventListener('click', () => {
-    const name = "Sapthesh"; // or dynamic later
+    const name = "Lalllliiiii"; // or dynamic later
     const candles = 6; // optional
 
     window.location.href = `./Cake.html?name=${encodeURIComponent(name)}&candles=${candles}`;
